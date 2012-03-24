@@ -1,0 +1,10 @@
+pid        = /tmp/stunnel.pid
+foreground = yes
+client     = no
+debug = 7
+[https]
+cert = /Users/scragz/.stunnel/keypair.pem
+accept = 443
+connect =  80
+local = 127.0.0.1
+xforwardedproto = yes
